@@ -1,4 +1,4 @@
-name = raw_input("WHAT IS YOUR NAME?\n")
+name = str(input("WHAT IS YOUR NAME?\n: "))
 
 def greet(name):
     greeting = "HELLO, " + name.upper() + "!"
