@@ -1,3 +1,3 @@
-name = raw_input("what is your name?\n:")
+name = str(input("what is your name?\n: "))
 
 print("hello, " + name + "!")
